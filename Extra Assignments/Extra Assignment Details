@@ -1,0 +1,85 @@
+Unit IV: Information Retrieval using NLP
+Lab Assignment 1: Implementing the Vector Space Model for Information Retrieval
+•	Implement a simple search engine using the TF-IDF vectorization method.
+•	Use a small dataset of documents and allow the user to input a query.
+•	Compute cosine similarity to retrieve the most relevant documents.
+•	Use Scikit-learn’s TfidfVectorizer for vectorization.
+
+Lab Assignment 2: Named Entity Recognition (NER) using spaCy
+•	Load a dataset containing text (news articles, Wikipedia snippets, etc.).
+•	Use spaCy to perform Named Entity Recognition (NER).
+•	Extract and classify named entities (Person, Organization, Date, etc.).
+•	Visualize the extracted entities using displaCy.
+
+
+
+Unit V: Machine Translation
+Lab Assignment 3: Implementing Rule-Based Machine Translation
+•	Design a simple rule-based translation system from English to Hindi (or any Indian language).
+•	Create basic grammar rules for sentence structure transformation.
+•	Use regular expressions and dictionaries for word translation.
+
+
+
+Unit VI: NLP Tools and Techniques
+Lab Assignment 5: Topic Modeling using Gensim
+•	Use the Gensim library to implement Latent Dirichlet Allocation (LDA).
+•	Train an LDA model on a dataset of news articles.
+•	Extract and visualize the top words from each topic.
+
+Lab Assignment 6: Word Sense Disambiguation using Lesk Algorithm
+•	Implement the Lesk Algorithm for word sense disambiguation.
+•	Take an ambiguous word (e.g., "bank") and disambiguate its meaning based on context.
+•	Use WordNet for retrieving word definitions and related synsets.
+
+
+
+Unit I: Introduction to Natural Language Processing
+Lab Assignment 1: Text Preprocessing and Regular Expressions
+•	Implement tokenization, stemming, and lemmatization using NLTK and spaCy.
+•	Use regular expressions for tasks such as extracting email addresses, phone numbers, and hashtags from a given text dataset of minimum 5 pages.
+
+Lab Assignment 2: Part-of-Speech (POS) Tagging
+•	Load a dataset (e.g., news articles or Wikipedia text).
+•	Use NLTK’s or spaCy’s POS tagger to classify words into parts of speech.
+•	Analyze the frequency of different POS categories in the text.
+
+
+
+Unit II: Language Syntax and Semantics
+Lab Assignment 3: Morphological Analysis using Finite State Transducers (FST)
+•	Implement morphological parsing using a Finite State Transducer (FST).
+•	Take a list of words and break them into their morphemes (root, affix, suffix).
+•	Example: running → run + ing, happier → happy + er.
+
+Lab Assignment 4: Syntactic Parsing using a Dependency Parser
+•	Load a dataset of sentences and perform dependency parsing using spaCy or StanfordNLP.
+•	Visualize the syntactic structure using displaCy.
+•	Analyze sentence structures and dependency relations.
+
+
+
+Unit III: Language Modelling
+Lab Assignment 5: N-gram Language Model
+•	Implement unigram, bigram, and trigram models using NLTK.
+•	Train on a small text dataset and compute probabilities of word sequences.
+•	Use Laplace smoothing to handle unseen words.
+
+Lab Assignment 6: Word Embeddings with word2vec
+•	Train a word2vec model on a small corpus using Gensim.
+•	Visualize word embeddings using t-SNE.
+•	Find similar words using cosine similarity.
+(Optional)
+
+
+
+Unit II: Language Syntax and Semantics (Advanced)
+Lab Assignment 3: Morphological Analysis with Finite State Transducers (FST) and Deep Learning
+•	Implement a Finite State Transducer (FST) for morphological parsing (e.g., handling verb conjugations and noun declensions in an Indian language like Hindi or Sanskrit).
+•	Train a sequence-to-sequence deep learning model (LSTM-based) to predict morphemes for unseen words.
+•	Compare performance between FST and deep learning approaches.
+
+Lab Assignment 4: Probabilistic Parsing with CYK Algorithm and Neural Dependency Parsing
+•	Implement the Cocke-Younger-Kasami (CYK) algorithm for parsing Context-Free Grammars (CFGs).
+•	Train a Neural Dependency Parser (e.g., using Stanza or spaCy) on a dataset like Universal Dependencies.
+•	Compare traditional parsing algorithms with neural parsing models in terms of accuracy and efficiency.

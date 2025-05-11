@@ -1,0 +1,11 @@
+Unit VI: NLP Tools and Techniques
+
+Lab Assignment 5: Topic Modeling using Gensim
+•	Use the Gensim library to implement Latent Dirichlet Allocation (LDA).
+•	Train an LDA model on a dataset of news articles.
+•	Extract and visualize the top words from each topic.
+
+Lab Assignment 6: Word Sense Disambiguation using Lesk Algorithm
+•	Implement the Lesk Algorithm for word sense disambiguation.
+•	Take an ambiguous word (e.g., "bank") and disambiguate its meaning based on context.
+•	Use WordNet for retrieving word definitions and related synsets.

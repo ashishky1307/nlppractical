@@ -1,0 +1,56 @@
+The goal is to build a Transformer model that can process sequential data (like text) using self-attention mechanisms. This transformer can be used for tasks like machine translation, text generation, and sequence modeling.The model takes a sequence of tokens (words or subwords), processes them using attention mechanisms, and outputs predictions for each token (e.g., for translation or language modeling).
+
+The implementation includes the following key components:
+(1) Positional Encoding
+🚀 Why Do We Need Positional Encoding?
+Transformers do not have built-in recurrence (like RNNs) or sequence order (like CNNs). So, we add positional encodings to provide information about the position of each word in the input sequence.
+✅ How Does the Code Work?
+It calculates sine and cosine functions at different frequencies.
+This helps encode the position of tokens in a continuous manner.
+
+(2) Multi-Head Self-Attention
+🚀 What is Self-Attention?
+Self-attention helps a word attend to all other words in a sentence. It assigns different importance scores to different words based on their relevance.
+✅ How Does the Code Work?
+qkv_linear: Creates Query (Q), Key (K), and Value (V) from input.
+scores = (Q @ Kᵀ) / sqrt(d_k): Computes similarity scores between words.
+F.softmax(scores, dim=-1): Normalizes the scores using softmax.
+attn @ v: Generates weighted representations.
+
+(3) Feed Forward Network (FFN)
+Each transformer layer contains a position-wise feed-forward network to process the output of self-attention.
+✅ How Does the Code Work?
+Uses a 2-layer MLP with ReLU activation.
+Helps in learning complex transformations.
+
+(4) Transformer Encoder Layer
+Each encoder layer consists of:
+Multi-Head Self-Attention
+Feed-Forward Network
+Layer Normalization & Residual Connections
+✅ How Does the Code Work?
+Layer Normalization ensures numerical stability.
+Dropout helps in regularization.
+
+(5) Transformer Model
+The final Transformer model consists of:
+Embedding Layer (converts words to vectors)
+Positional Encoding (adds positional information)
+Stacked Encoder Layers (processes the sequence)
+Final Fully Connected Layer (produces output predictions)
+✅ How Does the Code Work?
+Stacked Encoder Layers (self.layers) form the deep network.
+Final Layer (fc_out) converts to vocabulary size for classification.
+
+
+Running the Model
+1. Creates a random input sequence of 10 tokens.
+2. Passes it through the Transformer.
+3. Outputs a tensor of shape (batch_size, sequence_length, vocab_size).
+
+Summary
+We implemented: ✅ Positional Encoding (adds order info)
+✅ Multi-Head Self-Attention (focuses on important words)
+✅ Feed-Forward Network (learns transformations)
+✅ Stacked Transformer Layers (deep processing)
+✅ End-to-End Transformer ModelThis is a basic Transformer model and can be extended for tasks like machine translation or text generation. 🚀

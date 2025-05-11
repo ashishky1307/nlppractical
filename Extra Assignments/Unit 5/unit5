@@ -1,0 +1,6 @@
+Unit V: Machine Translation
+
+Lab Assignment 3: Implementing Rule-Based Machine Translation
+•	Design a simple rule-based translation system from English to Hindi (or any Indian language).
+•	Create basic grammar rules for sentence structure transformation.
+•	Use regular expressions and dictionaries for word translation.

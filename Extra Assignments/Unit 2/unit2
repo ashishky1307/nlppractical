@@ -1,0 +1,24 @@
+Unit II: Language Syntax and Semantics
+
+Lab Assignment 3: Morphological Analysis using Finite State Transducers (FST)
+•	Implement morphological parsing using a Finite State Transducer (FST).
+•	Take a list of words and break them into their morphemes (root, affix, suffix).
+•	Example: running → run + ing, happier → happy + er.
+
+Lab Assignment 4: Syntactic Parsing using a Dependency Parser
+•	Load a dataset of sentences and perform dependency parsing using spaCy or StanfordNLP.
+•	Visualize the syntactic structure using displaCy.
+•	Analyze sentence structures and dependency relations.
+
+Optional
+
+Lab Assignment 3: Morphological Analysis with Finite State Transducers (FST) and Deep Learning
+•	Implement a Finite State Transducer (FST) for morphological parsing (e.g., handling verb conjugations and noun declensions in an Indian language like Hindi or Sanskrit).
+•	Train a sequence-to-sequence deep learning model (LSTM-based) to predict morphemes for unseen words.
+•	Compare performance between FST and deep learning approaches.
+
+Lab Assignment 4: Probabilistic Parsing with CYK Algorithm and Neural Dependency Parsing
+•	Implement the Cocke-Younger-Kasami (CYK) algorithm for parsing Context-Free Grammars (CFGs).
+•	Train a Neural Dependency Parser (e.g., using Stanza or spaCy) on a dataset like Universal Dependencies.
+•	Compare traditional parsing algorithms with neural parsing models in terms of accuracy and efficiency.
+

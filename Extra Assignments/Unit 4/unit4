@@ -1,0 +1,14 @@
+Unit IV: Information Retrieval using NLP
+
+Lab Assignment 1: Implementing the Vector Space Model for Information Retrieval
+•	Implement a simple search engine using the TF-IDF vectorization method.
+•	Use a small dataset of documents and allow the user to input a query.
+•	Compute cosine similarity to retrieve the most relevant documents.
+•	Use Scikit-learn’s TfidfVectorizer for vectorization.
+
+Lab Assignment 2: Named Entity Recognition (NER) using spaCy
+•	Load a dataset containing text (news articles, Wikipedia snippets, etc.).
+•	Use spaCy to perform Named Entity Recognition (NER).
+•	Extract and classify named entities (Person, Organization, Date, etc.).
+•	Visualize the extracted entities using displaCy.
+

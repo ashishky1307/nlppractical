@@ -1,0 +1,11 @@
+Unit III: Language Modelling
+
+Lab Assignment 5: N-gram Language Model
+•	Implement unigram, bigram, and trigram models using NLTK.
+•	Train on a small text dataset and compute probabilities of word sequences.
+•	Use Laplace smoothing to handle unseen words.
+
+Lab Assignment 6: Word Embeddings with word2vec
+•	Train a word2vec model on a small corpus using Gensim.
+•	Visualize word embeddings using t-SNE.
+•	Find similar words using cosine similarity.

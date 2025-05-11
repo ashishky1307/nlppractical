@@ -1,0 +1,10 @@
+Unit I: Introduction to Natural Language Processing
+
+Lab Assignment 1: Text Preprocessing and Regular Expressions
+•	Implement tokenization, stemming, and lemmatization using NLTK and spaCy.
+•	Use regular expressions for tasks such as extracting email addresses, phone numbers, and hashtags from a given text dataset of minimum 5 pages.
+
+Lab Assignment 2: Part-of-Speech (POS) Tagging
+•	Load a dataset (e.g., news articles or Wikipedia text).
+•	Use NLTK’s or spaCy’s POS tagger to classify words into parts of speech.
+•	Analyze the frequency of different POS categories in the text.
